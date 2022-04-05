@@ -19,8 +19,8 @@ res/logo/%.pdf: res/logo/%.svg
 ${PREF}.pdf: ${PREF}.tex \
 		res/cc/by-nc-nd-88x31.pdf \
 		res/logo/BibliaShare.pdf
-	pdflatex ${PREF}.tex
-	bibtex ${PREF}
+	#pdflatex ${PREF}.tex
+	#bibtex ${PREF}
 	pdflatex ${PREF}.tex
 	pdflatex ${PREF}.tex
 
