@@ -28,4 +28,6 @@ ${PREF}.png: ${PREF}.pdf
 	mkdir -p ${PREF}.png
 	cd ${PREF}.png; \
 		pdftoppm -png -forcenum -r 304.76 "../${PREF}.pdf" "${PREF}"
+	cd ..
+	touch ${PREF}.png
 
