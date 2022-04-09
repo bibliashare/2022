@@ -1,4 +1,4 @@
-PREF=220226-Mt24
+PREF=220226-Mt24-A
 
 clean:
 	for TRG in ${PREF}; do \
